@@ -104,14 +104,14 @@ main {
     display: block;
     width: 100%;
 }
-.main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 .about {
     margin: 200px;
-
     border-radius: 10px;
     padding: 130px 150px;
     width: 100%; /* Ensure it does not exceed the parent width */
@@ -164,4 +164,37 @@ main {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6); /* Box shadow */
     border-radius: 10px; /* Optional: Adds rounded corners */
     background-color: white; /* Ensure there's a background color for visibility */
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the start vertically */
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+    gap: 24px; /* Add space between the columns */
+    padding: 50px; /* Add some padding for better spacing */
+}
+
+.resume-column {
+    flex: 1;
+    padding: 20px; /* Add padding for better spacing */
+    max-width: 600px; /* Optional: Limit the max width of each column */
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-subtitle {
+    color: #757575;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
 }
