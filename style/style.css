@@ -1,0 +1,167 @@
+/* General styles */
+nav {
+    display: flex;
+    font-style: Open-Sans;
+    margin: 0px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Navigation styles */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    font: 200px;
+}
+
+.dark2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Banner styles */
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-picture {
+    width: 580px;
+}
+
+.banner-conent {
+    max-width: 580px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Section styles */
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+.main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.about {
+    margin: 200px;
+
+    border-radius: 10px;
+    padding: 130px 150px;
+    width: 100%; /* Ensure it does not exceed the parent width */
+    max-width: 800px; /* You can adjust the max-width as needed */
+    background-color: #FFF8F3; /* secondary-bg class */
+}
+
+.about-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Space between items */
+    margin-top: 20px; /* Space above the items */
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title {
+    font-weight: bold;
+    color: #474747;
+}
+
+.item-description {
+    font-weight: normal;
+    color: #757575;
+}
+
+.skills {
+    margin: 200px;
+    margin-top: 0; /* Remove the top margin to avoid extra space above */
+    border-radius: 10px;
+    padding: 130px 150px;
+    width: 100%; /* Ensure it does not exceed the parent width */
+    max-width: 800px; /* You can adjust the max-width as needed */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 40px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6); /* Box shadow */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    background-color: white; /* Ensure there's a background color for visibility */
+}
